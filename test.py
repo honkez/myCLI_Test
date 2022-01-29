@@ -1,9 +1,9 @@
 
 '''
-
+##This use one key for encrypt/decrypt
 from cryptography.fernet import Fernet
 
-message='Hej på dig ?\n'
+message='Hej paa dig ?\n'
 key = Fernet.generate_key()
 #fernet object
 fernet = Fernet(key=key)
